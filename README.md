@@ -17,19 +17,7 @@
 
 **`2022-02`**:**仓库创建，支持不同尺寸模型训练，分别为s、m、l、x版本的yolov5、支持step、cos学习率下降法、支持adam、sgd优化器选择、支持学习率根据batch_size自适应调整、新增图片裁剪。**  
 
-## 相关仓库
-| 模型 | 路径 |
-| :----- | :----- |
-YoloV3 | https://github.com/bubbliiiing/yolo3-tf2  
-Efficientnet-Yolo3 | https://github.com/bubbliiiing/efficientnet-yolo3-tf2  
-YoloV4 | https://github.com/bubbliiiing/yolov4-tf2
-YoloV4-tiny | https://github.com/bubbliiiing/yolov4-tiny-tf2
-Mobilenet-Yolov4 | https://github.com/bubbliiiing/mobilenet-yolov4-tf2
-YoloV5-V5.0 | https://github.com/bubbliiiing/yolov5-tf2
-YoloV5-V6.1 | https://github.com/bubbliiiing/yolov5-v6.1-tf2
-YoloX | https://github.com/bubbliiiing/yolox-tf2
-Yolov7 | https://github.com/bubbliiiing/yolov7-tf2
-Yolov7-tiny | https://github.com/bubbliiiing/yolov7-tiny-tf2
+
 
 ## 性能情况
 | 训练数据集 | 权值文件名称 | 测试数据集 | 输入图片大小 | mAP 0.5:0.95 | mAP 0.5 |
@@ -174,5 +162,4 @@ img/street.jpg
 ## Reference
 https://github.com/qqwweee/keras-yolo3/  
 https://github.com/Cartucho/mAP  
-https://github.com/Ma-Dan/keras-yolo4  
-https://github.com/ultralytics/yolov5
+
